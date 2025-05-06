@@ -45,6 +45,8 @@ This project extracts lender names from SEC filings using NLP techniques and a n
 
 ```bash
 pip install pandas transformers beautifulsoup4 requests openpyxl torch
+
+python edgar_web_extraction.py
 ```
 
 ## Deduplication Script: `dedupe_validated.py`
