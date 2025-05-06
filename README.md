@@ -45,6 +45,7 @@ This project extracts lender names from SEC filings using NLP techniques and a n
 
 ```bash
 pip install pandas transformers beautifulsoup4 requests openpyxl torch
+```
 
 ## Deduplication Script: `dedupe_validated.py`
 
@@ -58,6 +59,7 @@ For each extracted Excel file matching:
 
 ```plaintext
 extracted_lenders/extracted_lenders_*_updated.xlsx
+```
 
 ###  What the Script Does
 
@@ -83,5 +85,6 @@ Run this script after completing a round of lender extraction:
 
 ```bash
 python dedupe_validated.py
+```
 
 
